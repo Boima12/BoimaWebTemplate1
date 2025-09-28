@@ -26,7 +26,15 @@ Note: <db_password> means your mongoDB collection account password, not your mon
 	MONGO_URI=mongodb+srv://Boima:<db_password>@nodeandexpressprojects.ct2vxsl.mongodb.net/<Project_Name>?retryWrites=true&w=majority&appName=NodeAndExpressProjects
 ```
 
-5. (optional) remove git by deleting the .git folder, then the app no longer a Git repo. You can also delete this README.md too.
+5. change the project name, you can change the following from BoimaWebTemplate1 to <newProjectName>
+- root folder name 
+- go into react/, change the react folder name to <newProjectName>
+- go into react/<newProjectName>, modify package.json and package-lock.json the "BoimaWebTemplate1" to <newProjectName> BUT LOWERCASE
+
+
+6. (optional) remove git by deleting the .git folder, then the app no longer a Git repo.
+
+6. (optional) remove git by deleting the .git folder, then the app no longer a Git repo. You can also delete this README.md too.
 
 done.
 
