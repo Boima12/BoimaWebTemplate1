@@ -2,7 +2,7 @@
 
 1. go to the folder you desired, type these in terminal:
 ```
-	git pull https://github.com/Boima12/BoimaWebTemplate1.git
+	git clone https://github.com/Boima12/BoimaWebTemplate1.git
 	cd BoimaWebTemplate1
 ```
 
