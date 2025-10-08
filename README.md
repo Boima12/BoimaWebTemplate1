@@ -1,5 +1,14 @@
-﻿# Retrieve a React + NodeJS + MongoDB template
+﻿# React + NodeJS + MongoDB template by me
+- this template come with basic set up of:
++ axios
++ external font (Inter)
++ react-router-dom (main.jsx)
 
+
+<hr>
+
+
+## detail guide on retrieving this React + NodeJS + MongoDB template
 1. go to the folder you desired, type these in terminal:
 ```
 	git clone https://github.com/Boima12/BoimaWebTemplate1.git
@@ -30,9 +39,6 @@ Note: <db_password> means your mongoDB collection account password, not your mon
 - root folder name 
 - go into react/, change the react folder name to <newProjectName>
 - go into react/<newProjectName>, modify package.json and package-lock.json the "BoimaWebTemplate1" to <newProjectName> BUT LOWERCASE
-
-
-6. (optional) remove git by deleting the .git folder, then the app no longer a Git repo.
 
 6. (optional) remove git by deleting the .git folder, then the app no longer a Git repo. You can also delete this README.md too.
 
