@@ -29,7 +29,7 @@
 	npm install
 ```
 
-4. within nodejs folder, create .env file, make sure to replace <db_password> and <Project_Name> inside MONGO_URI
+4. within nodejs folder, create .env file, make sure to replace <db_password> and <Project_Name> inside MONGO_URI <br>
 Note: <db_password> means your mongoDB collection account password, not your mongoDB main account, <Project_Name> is the collection you want to link to, also "Boima" here is my mongoDB, if anybody else read this, this mean you change that part to your mongoDB account name too.
 ```
 	MONGO_URI=mongodb+srv://Boima:<db_password>@nodeandexpressprojects.ct2vxsl.mongodb.net/<Project_Name>?retryWrites=true&w=majority&appName=NodeAndExpressProjects
